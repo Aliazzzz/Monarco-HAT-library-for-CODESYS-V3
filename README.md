@@ -23,8 +23,8 @@ Prerequisitories;
 
 
 Hardware Installation;
-To use the HAT hardware, RS-485 and the Realtime Clock under CODESYS, please follow these steps.
-RTC requires no Linux side config apart from the overlay;
+- To use the HAT hardware, RS-485 and the Realtime Clock under CODESYS, please follow these steps.
+- RTC requires no Linux side config apart from the overlay;
 
 1) On your Raspberry Pi, switch to root user: sudo -s
 2) Disable Linux console on UART: sed 's/ console=serial0,[0-9]\+//' -i /boot/cmdline.txt
