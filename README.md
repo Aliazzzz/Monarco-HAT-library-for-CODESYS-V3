@@ -22,7 +22,7 @@ Also included in the release;
 - CODESYS runtime component installed on pi (Demo or licensed),
 
 
-# Hardware Installation;
+# Hardware installation;
 - To use the HAT hardware, RS-485 and the Realtime Clock under CODESYS, please follow these steps.
 - RTC requires no Linux side config apart from the overlay;
 
@@ -42,7 +42,7 @@ Also included in the release;
 14) Follow the Software Installation steps;
 
 
-# Software Installation;
+# Software installation;
 1) Either install the .package via CODESYS Package Manager (or double click it), or 
 2) Install the loose components via the Library / Device Repository, both found under Tools menu option in CODESYS IDE.
 3) ENJOY!
