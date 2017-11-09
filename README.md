@@ -7,7 +7,7 @@ I am not connected with Monarco in any way, I simply wrote this library out of h
 I decided that maybe of use for other people. Therefore, I released it under the "Unlicense" agreement.
 
 
-The main library components are;
+# The main library components are;
 - MonarcoHAT.devdesc.xml,
 - .library file,
 - example .project file
@@ -16,13 +16,13 @@ Also included in the release;
 - .package file (CODESYS installer) which contains all above files in a user friendly installer, together with the "unlicense" agreement.
 
 
-Prerequisitories;
+# Prerequisitories;
 - A Raspberry pi with the Monarco HAT,
 - CODESYS IDE with Raspberry Pi .package installed,
 - CODESYS runtime component installed on pi (Demo or licensed),
 
 
-Hardware Installation;
+# Hardware Installation;
 - To use the HAT hardware, RS-485 and the Realtime Clock under CODESYS, please follow these steps.
 - RTC requires no Linux side config apart from the overlay;
 
@@ -42,7 +42,7 @@ Hardware Installation;
 14) Follow the Software Installation steps;
 
 
-Software Installation;
+# Software Installation;
 1) Either install the .package via CODESYS Package Manager (or double click it), or 
 2) Install the loose components via the Library / Device Repository, both found under Tools menu option in CODESYS IDE.
 3) ENJOY!
