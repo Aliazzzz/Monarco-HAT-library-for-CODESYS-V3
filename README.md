@@ -5,6 +5,7 @@ The Monarco HAT was lacking a CODESYS library, so I decided to write it myself.
 
 I am not connected with Monarco in any way, I simply wrote this library out of hobbyism and for fun. 
 I decided that maybe of use for other people. Therefore, I released it under the "Unlicense" agreement.
+It may still contain bugs, so feel free to contribute.
 
 
 # The main library components are;
