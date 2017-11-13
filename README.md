@@ -1,5 +1,8 @@
 # Monarco-HAT-library-for-CODESYS
+![Alt text](https://www.codesys.com/fileadmin/templates/html/images/general/logo.png "CODESYS")
+
 CODESYS 3 Library for Monarco HAT
+
 
 I am not connected with Monarco (REX) in any way.
 I simply wrote this library out of hobbyism and for fun (self education) because I loved the industrial rubustness of this HAT.
