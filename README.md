@@ -53,7 +53,7 @@ Also included in the release;
 
 
 # In preparation: 0.9.0.5
-- Features;
+Features;
 - Small bugfixes
 - Integrated Faceplate
 
