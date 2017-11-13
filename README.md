@@ -1,11 +1,14 @@
 # Monarco-HAT-library-for-CODESYS
 CODESYS 3 Library for Monarco HAT
 
-The Monarco HAT was lacking a CODESYS library, so I decided to write it myself.
+I am not connected with Monarco (REX) in any way, I simply wrote this library out of hobbyism and for fun (self education).
+I loved the industrial rubustness of this HAT.
 
-I am not connected with Monarco in any way, I simply wrote this library out of hobbyism and for fun. 
-I decided that maybe of use for other people. Therefore, I released it under the "Unlicense" agreement.
-It may still contain bugs, so feel free to contribute.
+However, the Monarco HAT was lacking a proper CODESYS library, so I decided to write it myself for CODESYS V3.
+So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result.
+
+I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement.
+It may still contain bugs (not too much I hope!), so feel free to contribute.
 
 
 # The main library components are;
@@ -47,3 +50,12 @@ Also included in the release;
 1) Either install the .package via CODESYS Package Manager (or double click it), or 
 2) Install the loose components via the Library / Device Repository, both found under Tools menu option in CODESYS IDE.
 3) ENJOY!
+
+
+# In preparation: 0.9.0.5
+- Features;
+- Small bugfixes
+- Integrated Faceplate
+
+# Current version: 0.9.0.3
+- Initial Release
