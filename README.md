@@ -1,10 +1,10 @@
 # Monarco-HAT-library-for-CODESYS
 CODESYS 3 Library for Monarco HAT
 
-I am not connected with Monarco (REX) in any way, I simply wrote this library out of hobbyism and for fun (self education).
-I loved the industrial rubustness of this HAT.
+I am not connected with Monarco (REX) in any way.
+I simply wrote this library out of hobbyism and for fun (self education) because I loved the industrial rubustness of this HAT.
 
-However, the Monarco HAT was lacking a proper CODESYS library, so I decided to write it myself for CODESYS V3.
+The Monarco HAT was lacking a proper CODESYS V3 library, so I decided to write it myself to fill in this gap.
 So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result.
 
 I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement.
