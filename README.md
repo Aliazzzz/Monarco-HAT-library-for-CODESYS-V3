@@ -55,10 +55,5 @@ Also included in the release;
 3) ENJOY!
 
 
-# In preparation: 0.9.0.5
-Features;
-- Small bugfixes
-- Integrated Faceplate
-
 # Current version: 0.9.0.3
 - Initial Release
