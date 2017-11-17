@@ -8,7 +8,9 @@ I am not connected with Monarco (REX) or CODESYS in any way.
 I simply wrote this library out of hobbyism and for fun (self education) because I loved the industrial rubustness of this HAT.
 
 The Monarco HAT was lacking a proper CODESYS V3 library, so I decided to write it myself to fill in this gap.
-So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result. I intend to expand on the Device driver with frequent updates. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!), so feel free to contribute.
+So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result. I intend to expand on the Device driver with frequent updates. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!) 
+
+So, feel free to contribute!
 
 
 # The main library components are;
