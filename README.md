@@ -1,4 +1,4 @@
-# Monarco-HAT-library-for-CODESYS
+# Monarco-HAT-library-for-CODESYS-V3
 ![Alt text](https://www.codesys.com/fileadmin/templates/html/images/general/logo.png "CODESYS")
 
 CODESYS 3 Library for Monarco HAT
