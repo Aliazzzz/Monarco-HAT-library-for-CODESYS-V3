@@ -56,3 +56,8 @@ Also included in the release;
 
 # Current version: 0.9.0.3
 - Initial Release
+
+
+# Planned version: 0.9.1.0
+- Bugfixes
+- ?
