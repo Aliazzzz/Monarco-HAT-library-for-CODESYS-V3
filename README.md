@@ -1,5 +1,8 @@
 # Monarco-HAT-library-for-CODESYS-V3
 ![Alt text](https://www.codesys.com/fileadmin/templates/html/images/general/logo.png "CODESYS")
+![Alt text](http://linuxgizmos.com/files/rex_monarcohat-thm.jpg "Monarco")
+
+
 
 CODESYS 3 Library for Monarco HAT
 
