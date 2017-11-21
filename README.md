@@ -61,6 +61,6 @@ Also included in the release;
 - Initial Release
 
 
-# Planned version: 0.9.1.0
+# Planned version: 0.9.1.1
 - Bugfixes
 - ?
