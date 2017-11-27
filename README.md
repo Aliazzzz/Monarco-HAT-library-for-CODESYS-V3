@@ -1,3 +1,13 @@
+# Planned version: 0.9.1.1
+- Complete  overhaul of (internal) architecture for stability and speed,
+- Depricated classical interface => beware as this is NOT backward compatible anymore,
+- ?
+
+
+# Current version: 0.9.0.3
+- Initial Release
+
+
 # Monarco-HAT-library-for-CODESYS-V3
 ![Alt text](https://www.codesys.com/fileadmin/templates/html/images/general/logo.png "CODESYS")
 ![Alt text](http://files.linuxgizmos.com/rex_monarcohat1.jpg "Monarco")
@@ -57,10 +67,4 @@ Also included in the release;
 3) ENJOY!
 
 
-# Current version: 0.9.0.3
-- Initial Release
 
-
-# Planned version: 0.9.1.1
-- Bugfixes
-- ?
