@@ -4,14 +4,14 @@
 
 
 
-CODESYS 3 Library for Monarco HAT
+CODESYS V3 Library for Monarco IO HAT
 
 
 I am not connected with Monarco (REX) or CODESYS in any way.
-I simply wrote this library out of hobbyism and for fun (self education) because I loved the industrial rubustness of this HAT.
+I simply wrote this library out of hobbyism and for fun (self education) because I love the industrial rubustness of this HAT.
 
 The Monarco HAT was lacking a proper CODESYS V3 library, so I decided to write it myself to fill in this gap.
-So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result. I intend to expand on the Device driver with frequent updates. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!) 
+So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result. I intend to expand on the Device driver with frequent updates. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!). If you spot a bug, tell us.
 
 So, feel free to contribute!
 
@@ -57,5 +57,5 @@ Also included in the release;
 3) ENJOY!
 
 
-# See versions for information about the newest release;
+# Information about current and upcomming release;
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
