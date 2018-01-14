@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--created with CoDeSys 3.0 (http://www.3s-software.com) by DeviceDescriptionBuilder (3S-Smart Software Solutions GmbH)-->
+<DeviceDescription xmlns="http://www.3s-software.com/schemas/DeviceDescription-1.0.xsd" xmlns:ts="http://www.3s-software.com/schemas/TargetSettings-0.1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Types namespace="local">
+  </Types>
+  <Strings namespace="local">
+    <Language lang="en">
+    </Language>
+  </Strings>
+  <Files namespace="local">
+    <Language lang="en">
+	  <File fileref="local" identifier="ImageFile">
+        <LocalFile>Monarco.png</LocalFile>
+      </File>
+      <File fileref="local" identifier="Icon">
+        <LocalFile>Monarco.ico</LocalFile>
+      </File>
+    </Language>
+  </Files>
+  <Device hideInCatalogue="false">
+    <DeviceIdentification>
+      <Type>501</Type>
+      <Id>FFFF 0005</Id>
+      <Version>1.0.0.0</Version>
+    </DeviceIdentification>
+    <DeviceInfo>
+      <Name name="local:ModelName">Monarco HAT</Name>
+      <Description name="local:DeviceDescription">Monarco HAT SPI Device library for CODESYS</Description>
+      <Vendor name="local:VendorName">Monarco.io</Vendor>
+      <OrderNumber>-</OrderNumber>
+	<Image name="local:ImageFile">Monarco.png</Image>
+	<Icon name="local:Icon">Monarco.ico</Icon>
+    </DeviceInfo>
+	<Connector moduleType="500" interface="Raspberry.SPI" role="child" explicit="false" connectorId="1" hostpath="-1">
+      <InterfaceName name="local:PCI">SPI devices</InterfaceName>
+      <Slot count="1" allowEmpty="false">
+      </Slot> 
+      <DriverInfo needsBusCycle="true">
+        <RequiredLib libname="Monarco HAT library for CODESYS" vendor="Monarco.io" version="1.0.0.0" identifier="deviceLib">
+          <FBInstance basename="$(DeviceName)" fbname="Monarco_FB">
+            <Initialize methodName="Initialize" />
+            <CyclicCall methodname="AfterReadInputs" task="#buscycletask" whentocall="afterReadInputs" />
+            <CyclicCall methodname="BeforeWriteOutputs" task="#buscycletask" whentocall="beforeWriteOutputs" />
+          </FBInstance>
+        </RequiredLib>
+      </DriverInfo>
+	<HostParameterSet>
+	</HostParameterSet>
+    </Connector>
+  </Device>
+</DeviceDescription>
