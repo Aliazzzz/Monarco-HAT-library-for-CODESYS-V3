@@ -15,6 +15,9 @@ So, using C & Java Node-JS code examples and documentation from Monarco and afte
 
 So, feel free to contribute!
 
+# Information about current and upcomming release;
+https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
+
 
 # The main library components are;
 - MonarcoHAT.devdesc.xml,
@@ -55,7 +58,3 @@ Also included in the release;
 1) Either install the .package via CODESYS Package Manager (or double click it), or 
 2) Install the loose components via the Library / Device Repository, both found under Tools menu option in CODESYS IDE.
 3) ENJOY!
-
-
-# Information about current and upcomming release;
-https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
