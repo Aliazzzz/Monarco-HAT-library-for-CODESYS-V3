@@ -1,3 +1,8 @@
+# Under Development: 2.0.0.0
+- Works as an IO driver, instead of a function block,
+- All interaction are done via IO and Parameters, No function Block calls needed!
+
+
 # Current version: 1.0.0.0
 - Works as a function block, all interactions with the hardware must be done via this function block in the user program,
 - Overhaul of architecture for stability and speed,
