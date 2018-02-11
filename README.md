@@ -12,11 +12,12 @@ I am not connected with Monarco.io or CODESYS in any way. I simply wrote this li
 The Monarco HAT was lacking a proper CODESYS V3 library, so I decided to write it myself to fill in this gap.
 So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result. I intend to expand on the Device driver with frequent updates. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!). If you spot a bug, tell me. Feel free to contribute!
 
-# Information about current and upcomming release;
-![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco_HAT%20IO%20Mapping%202018-02-11_172304.png "Monarco IO Mapping")
-
-
+# Information about older and current release;
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
+
+
+# IO Mapping v2.0.0.0;
+![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco_HAT%20IO%20Mapping%202018-02-11_172304.png "Monarco IO Mapping")
 
 
 # The main components are;
