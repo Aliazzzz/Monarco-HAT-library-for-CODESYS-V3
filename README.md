@@ -16,19 +16,17 @@ So, using C & Java Node-JS code examples and documentation from Monarco and afte
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
 
 
-# The main library components are;
-- MonarcoHAT.devdesc.xml,
-- .library file,
-- example .project file
-
-Also included in the release;
-- .package file (CODESYS installer) which contains all above files in a user friendly installer, together with the "unlicense" agreement.
+# The main components are;
+- .package file (CODESYS installer) which contains all below mentioned files in a user friendly installer, together with the "unlicense" agreement;
+- .devdesc.xml,
+- .Library,
+- Example.project file.
 
 
 # Prerequisitories;
 - A Raspberry pi with the Monarco HAT,
 - CODESYS IDE with Raspberry Pi .package installed,
-- CODESYS runtime component installed on pi (Demo or licensed),
+- CODESYS runtime component installed on pi (Demo or licensed).
 
 
 # Hardware installation;
