@@ -9,10 +9,9 @@
   * Hardware Watchdog.
 
 
-# IO mapping in v2.0.0.0;
+# IO (Di, Do, Ai, Ao) mapping in v2.0.0.0;
 ![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco/2.0.0.0/pics/Monarco_HAT%20IO%20Mapping%202018-02-11_172304.png "Monarco IO Mapping v2.0.0.0")
 
-  
+
+# Watchdog Device Parameters;
 ![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco/2.0.0.0/pics/Monarco_HAT%20SPI%20Device%20Parameters%202018-02-11_172304.png "Monarco Device Parameters v2.0.0.0")
-
-
