@@ -16,7 +16,7 @@ So, using C & Java Node-JS code examples and documentation from Monarco and afte
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
 
 
-# IO Mapping v2.0.0.0;
+# IO mapping in v2.0.0.0;
 ![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco_HAT%20IO%20Mapping%202018-02-11_172304.png "Monarco IO Mapping")
 
 
