@@ -53,3 +53,8 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 1) Either install the .package via CODESYS Package Manager (or double click it), or 
 2) Install the loose components via the Library / Device Repository, both found under Tools menu option in CODESYS IDE.
 3) ENJOY!
+
+
+![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco_HAT%20IO%20Mapping%202018-02-11_172304.png "Monarco IO Mapping")
+![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco_HAT%20Information2018-02-11_172304.png "Monarco HAT Driver Information")
+![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco_HAT%20SPI%20Device%20Parameters%202018-02-11_172304.png "HAT Device Parameters")
