@@ -1,5 +1,4 @@
 # Monarco-HAT-library-for-CODESYS-V3
-![Alt text](https://pbs.twimg.com/profile_images/735481953491800064/_BwVygX7.jpg "Monarco Logo")
 ![Alt text](http://files.linuxgizmos.com/rex_monarcohat1.jpg "Monarco HAT")
 ![Alt text](https://tienda.opiron.com/107-home_default/curso-de-codesys.jpg "CODESYS")
 
@@ -16,10 +15,6 @@ So, using C & Java Node-JS code examples and documentation from Monarco and afte
 
 # Information about previous and current releases;
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
-
-
-![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco/2.0.0.0/pics/Monarco_HAT%20Information2018-02-11_172304.png "v2.0.0.0 driver info")
-
 
 # The main components are;
 - .package file (CODESYS installer) which contains all below mentioned files in a user friendly installer, together with the "unlicense" agreement;
