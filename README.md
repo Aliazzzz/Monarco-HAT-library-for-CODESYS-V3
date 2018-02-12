@@ -7,7 +7,7 @@ CODESYS V3 Library for Monarco IO HAT
 
 
 I am not connected with Monarco.io or CODESYS in any way. 
-I wrote this library out of hobbyism and for fun (self education) because I love the industrial rubustness of this HAT. 
+I wrote this library out of hobbyism and for fun (self-education) because I love the industrial rubustness of this HAT. 
 It's an industrial graded Hat ideally suited for Home, IOT or small industrial projects.
 
 The Monarco HAT was lacking a proper CODESYS V3 library, so I decided to write it myself to fill in this gap.
