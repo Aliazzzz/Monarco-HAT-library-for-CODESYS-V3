@@ -13,8 +13,16 @@ It's an industrial graded Hat ideally suited for Home, IOT or small industrial p
 The Monarco HAT was lacking a proper CODESYS V3 library, so I decided to write it myself to fill in this gap.
 So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result. I intend to expand on the Device driver with frequent updates. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!). If you spot a bug, tell me. Feel free to contribute!
 
-# Information about previous and current releases;
+
+# Information about current version: V2.0.0.0;
+- Works as an IO driver, instead of a function block,
+- All interaction are done via IO and Parameters, No function Block calls needed!
+- Breaks compatibilty because it's now IO parameter based, however v2.0.0.0 improves greatly on ease of use.
+
+
+# Information about previous versions;
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
+
 
 # The main components are;
 - .package file (CODESYS installer) which contains all below mentioned files in a user friendly installer, together with the "unlicense" agreement;
