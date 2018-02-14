@@ -42,7 +42,7 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 - RTC requires no Linux side config apart from the overlay;
 
 1) On your Raspberry Pi, switch to root user: sudo -s
-2) Disable Linux console on UART: sed 's/ console=serial0,[0-9]\+//' -i /boot/cmdline.txt
+2) Disable Linux console on UART: sed 's/ console=serial0,[0-9]\\+//' -i /boot/cmdline.txt
 3) Run the following command to get device-tree overlay definition for the RS-485 on the Monarco HAT: wget www.monarco.io/download/monarco-fix-4-9.dtbo
 4) Copy it to /boot/overlays: sudo cp monarco-fix-4-9.dtbo /boot/overlays
 5) Afterwards add dtoverlay=monarco-fix-4-9 line to the /boot/config.txt file: echo dtoverlay=monarco-fix-4-9 >> /boot/config.txt
