@@ -5,19 +5,16 @@
 
 CODESYS V3 Library for Monarco IO HAT
 
+The Monarcvo Hat is an industrial graded Hat ideally suited for Home, IOT or small industrial projects. 
+It was lacking a proper CODESYS V3 library, so I decided to write it to fill in the gap.
+So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is the end-result. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!). If you spot a bug, tell me. Feel free to contribute!
 
-I am not connected with Monarco.io or CODESYS in any way. 
-I wrote this library out of hobbyism and for fun (self-education) because I love the industrial rubustness of this HAT. 
-It's an industrial graded Hat ideally suited for Home, IOT or small industrial projects.
-
-The Monarco HAT was lacking a proper CODESYS V3 library, so I decided to write it myself to fill in this gap.
-So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is end-result. I intend to expand on the Device driver with frequent updates. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!). If you spot a bug, tell me. Feel free to contribute!
+PS: I am not connected with Monarco.io or CODESYS in any way. I wrote this library out of hobbyism and for fun (self-education). 
 
 
 # Information about current version: V2.0.0.0;
-- Works as an IO driver, instead of a function block,
-- All interaction are done via IO and Parameters, No function Block calls needed!
-- Breaks compatibilty because it's now IO parameter based, however v2.0.0.0 improves greatly on ease of use.
+- Works as an IO driverL:All interaction are done via IO and parameters, no function Block calls are needed.
+- Breaks compatibilty with earlier version v1.0.0.0, however improves greatly on ease of use.
 
 
 # Information about previous versions;
