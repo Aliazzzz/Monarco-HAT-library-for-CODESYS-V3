@@ -1,9 +1,9 @@
 # Current version: 2.0.0.0
 - Works as an IO driver, instead of a function block,
-- All interaction are done via IO and Parameters, No function Block calls needed!
-- Breaks compatibilty because it's now IO parameter based, however v2.0.0.0 improves greatly on ease of use.
+- All interaction are done via IO and Parameters, no function Block calls needed,
+- Breaks compatibilty with v1.0.0.0 however improves greatly on ease of use.
 - Supports basic features like AI, AO, DI, DO and Hardware Watchdog,
-- No support for advanced features like Counters, PWM, RS485 yet.
+- Not yet supported: Counters, PWM, RS485.
 
 
 # Previous version: 1.0.0.0
