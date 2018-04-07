@@ -35,9 +35,15 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 
 
 # Hardware installation;
-- To use the HAT hardware, RS-485 and the Realtime Clock under CODESYS, please follow these steps.
-- RTC requires no Linux side config apart from the overlay;
+- The only thing which is not working out-of-the-box is the RS485
 
+1) Attach Monarco HAT to Raspberry Pi and power it up; 
+2) sudo cat /proc/device-tree/hat/vendor
+should return "REX Controls" 
+3) sudo cat /proc/device-tree/hat/product
+should return "Monarco HAT"
+
+- To use RS485 with CODESYS, please follow these steps;
 1) On your Raspberry Pi, switch to root user: sudo -s
 2) Disable Linux console on UART: sed 's/ console=serial0,[0-9]\\+//' -i /boot/cmdline.txt
 3) Run the following command to get device-tree overlay definition for the RS-485 on the Monarco HAT: wget www.monarco.io/download/monarco-fix-4-9.dtbo
@@ -52,7 +58,6 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 12) Then reboot your Raspberry Pi again: reboot
 13) After reboot: Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application. Access the RS485 UART via a comlib of you own flavour (like CAA SerialCOM library).
 14) Follow the Software Installation steps;
-
 
 # Software installation;
 1) Either install the .package via CODESYS Package Manager (or double click it), or 
