@@ -11,15 +11,12 @@ So, using C & Java Node-JS code examples and documentation from Monarco and afte
 
 PS: I am not connected with Monarco.io or CODESYS in any way. I wrote this library out of hobbyism and for fun (self-education). 
 
-
 # Information about current version: V2.0.0.0;
 - Works as an IO driverL:All interaction are done via IO and parameters, no function Block calls are needed.
 - Breaks compatibilty with earlier version v1.0.0.0, however improves greatly on ease of use.
 
-
 # Information about previous versions;
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
-
 
 # The main components are;
 - .package file (CODESYS installer) which contains all below mentioned files in a user friendly installer, together with the "unlicense" agreement;
@@ -31,13 +28,16 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 - A Raspberry pi with the Monarco HAT,
 - CODESYS IDE with Raspberry Pi .package installed,
 
-
 # Hardware installation;
-1) Attach Monarco HAT to Raspberry Pi and power it up; 
-sudo cat /proc/device-tree/hat/vendor
-it should return "REX Controls" 
-2) sudo cat /proc/device-tree/hat/product
-it should return "Monarco HAT"
+Attach Monarco HAT to Raspberry Pi and power it up; 
+
+    sudo cat /proc/device-tree/hat/vendor
+    
+should return "REX Controls" 
+
+    sudo cat /proc/device-tree/hat/product
+
+should return "Monarco HAT"
 
 # Disable system console on UART
 
