@@ -15,7 +15,7 @@ PS: I am not connected with Monarco.io or CODESYS in any way. I wrote this libra
 - Works as an IO driverL:All interaction are done via IO and parameters, no function Block calls are needed.
 - Breaks compatibilty with earlier version v1.0.0.0, however improves greatly on ease of use.
 
-# Information about previous versions;
+# Information about previous versions
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
 
 # The main components are;
@@ -24,11 +24,12 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 - .Library,
 - Example.project file.
 
-# Prerequisitories;
+
+# Prerequisitories
 - A Raspberry pi with the Monarco HAT,
 - CODESYS IDE with Raspberry Pi .package installed,
 
-# Hardware installation;
+# Hardware installation
 Attach Monarco HAT to Raspberry Pi and power it up; 
 
     sudo cat /proc/device-tree/hat/vendor
@@ -60,12 +61,12 @@ Follow Codesys online help steps, its easy!
 
 https://help.codesys.com/webapp/_rbp_install_runtime;product=CODESYS_Control_for_Raspberry_Pi_SL;version=3.5.12.0
 
-# Monarco codesys package installation;
+# Monarco codesys package installation
 Either install the Monarco codesys package (double clik it) or via CODESYS Package Manager, or
 
 Install the loose components via the Library / Device Repository, found under Tools menu option in CODESYS IDE.
 
-# Attach Codesys to the RS485 UART, 
+# Attach CODESYS to the RS485 UART
 Switch to etc direcory and edit the CODESYSControl.cfg;
 
     cd etc/
@@ -80,7 +81,7 @@ Now save and Quit nano.
 Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application. 
 Access the RS485 UART via a comlib of you own flavour (like CAA SerialCOM library)
 
-# Run Codesys Project
+# Run CODESYS Project
 Open the provided example project file,
 
 Check/Set SPI master parameters:
