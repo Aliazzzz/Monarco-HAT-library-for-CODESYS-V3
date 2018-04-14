@@ -27,39 +27,55 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 - .Library,
 - Example.project file.
 
-
 # Prerequisitories;
 - A Raspberry pi with the Monarco HAT,
 - CODESYS IDE with Raspberry Pi .package installed,
-- CODESYS runtime component installed on pi (Demo or licensed).
 
 
 # Hardware installation;
-- The only thing which is not working out-of-the-box is the RS485
-
 1) Attach Monarco HAT to Raspberry Pi and power it up; 
-2) sudo cat /proc/device-tree/hat/vendor
-should return "REX Controls" 
-3) sudo cat /proc/device-tree/hat/product
-should return "Monarco HAT"
+sudo cat /proc/device-tree/hat/vendor
+it should return "REX Controls" 
+2) sudo cat /proc/device-tree/hat/product
+it should return "Monarco HAT"
 
-- To use RS485 with CODESYS, please follow these steps;
-1) On your Raspberry Pi, switch to root user: sudo -s
-2) Disable Linux console on UART: sed 's/ console=serial0,[0-9]\\+//' -i /boot/cmdline.txt
-3) Run the following command to get device-tree overlay definition for the RS-485 on the Monarco HAT: wget www.monarco.io/download/monarco-fix-4-9.dtbo
-4) Copy it to /boot/overlays: sudo cp monarco-fix-4-9.dtbo /boot/overlays
-5) Afterwards add dtoverlay=monarco-fix-4-9 line to the /boot/config.txt file: echo dtoverlay=monarco-fix-4-9 >> /boot/config.txt
-6) Reboot your Raspberry Pi: reboot
-7) After reboot, check the output of the following command: ls -l /dev/serial0
-8) The response should read "/dev/serial0 -> ttyAMA0"
-9) Again, switch to root user: sudo -s  cd etc/
-10) Then: nano CODESYSControl.cfg
-11) Add the following lines: [SysCom] Linux.Devicefile=/dev/ttyAMA
-12) Then reboot your Raspberry Pi again: reboot
-13) After reboot: Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application. Access the RS485 UART via a comlib of you own flavour (like CAA SerialCOM library).
-14) Follow the Software Installation steps;
+# Disable system console on UART
+sudo sed 's/ console=serial0,[0-9]\+//' -i /boot/cmdline.txt
+sudo reboot
 
-# Software installation;
-1) Either install the .package via CODESYS Package Manager (or double click it), or 
-2) Install the loose components via the Library / Device Repository, both found under Tools menu option in CODESYS IDE.
-3) ENJOY!
+# Install essential tools
+sudo apt update
+sudo apt install git
+
+# Flash Monarco HAT EEPROM (to avoid manual installation of overlay)
+sudo git clone https://github.com/monarco/monarco-hat-firmware-bin
+cd monarco-hat-firmware-bin
+./monarco-eeprom.sh update
+
+# Install CODESYS runtime component on pi (Demo or licensed)
+Follow Codesys online help steps, its easy!
+https://help.codesys.com/webapp/_rbp_install_runtime;product=CODESYS_Control_for_Raspberry_Pi_SL;version=3.5.12.0
+
+# Monarco codesys package installation;
+Either install the Monarco codesys package (double clik it) or via CODESYS Package Manager, or 
+Install the loose components via the Library / Device Repository, found under Tools menu option in CODESYS IDE.
+
+# Attach Codesys to the RS485 UART, 
+Switch to etc direcory and edit the CODESYSControl.cfg ;
+cd etc/
+nano CODESYSControl.cfg
+Add the following lines;
+[SysCom] Linux.Devicefile=/dev/ttyAMA
+Now save and Quit nano. 
+
+Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application. 
+Access the RS485 UART via a comlib of you own flavour (like CAA SerialCOM library)
+
+# Run Codesys Project
+Open the provided example project file,
+Check/Set SPI master parameters:
+    Mode 0,
+    SPI bits 8,
+    Speed(Hz) 1000000 (=1MHz) => can be set up to 4 MHz, slower speeds avoid chance of crc errors
+
+Compile, run it an enjoy!
