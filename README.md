@@ -40,8 +40,9 @@ it should return "REX Controls"
 it should return "Monarco HAT"
 
 # Disable system console on UART
-sudo sed 's/ console=serial0,[0-9]\+//' -i /boot/cmdline.txt
-sudo reboot
+
+    sudo sed 's/ console=serial0,[0-9]\+//' -i /boot/cmdline.txt
+    sudo reboot
 
 # Install essential tools
     
