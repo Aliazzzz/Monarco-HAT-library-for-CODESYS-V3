@@ -5,9 +5,11 @@
 
 CODESYS V3 Library for Monarco IO HAT
 
-The Monarcvo Hat is an industrial graded Hat ideally suited for Home, IOT or small industrial projects. 
-It was lacking a proper CODESYS V3 library, so I decided to write it to fill in the gap.
-So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading and coding, this is the end-result. I decided that it maybe of use for other people, Therefore, I released it under the "Unlicense" agreement. It may still contain bugs (not too much I hope!). If you spot a bug, tell me. Feel free to contribute!
+The Monarco HAT is an industrial graded HAT ideally suited for Home Automation projects, IOT projects or (small) industrial projects. It was lacking a proper CODESYS V3 library, so I decided to develop it and fill in this gap.
+So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading, coding and debugging, this is the end-result. I thought that this library will be of use to other people, so I released it under the "Unlicense" agreement.
+
+Though I tested it thoroughly, it may still contain some small bugs (not too many I hope!). 
+If you spot one, share it with us so it can be fixed. Also, I invite you to fork this Repo and feel free to contribute!
 
 PS: I am not connected with Monarco.io or CODESYS in any way. I wrote this library out of hobbyism and for fun (self-education). 
 
@@ -88,6 +90,6 @@ Check/Set SPI master parameters:
 
     Mode 0,
     SPI bits 8,
-    Speed(Hz) 1000000 (=1MHz) => can be set up to 4 MHz, slower speeds avoid chance of crc errors
+    Speed(Hz) 1000000 (=1MHz) => can be set up to 4 MHz, slower speeds avoid chance on crc errors
 
-Compile, run it an enjoy!
+Compile, download, run => enjoy!
