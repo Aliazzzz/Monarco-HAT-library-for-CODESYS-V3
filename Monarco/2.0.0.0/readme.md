@@ -8,7 +8,5 @@
   * 2 Ao,
   * Hardware Watchdog.
   
-
-
-Monarco Hat IO Mapping in combination with Codesys Application Composer, see "FirstSteps.project" example.
-![Alt text](https://raw.githubusercontent.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/master/Monarco/2.0.0.0/pics/Monarco%20Hat%20with%20Codesys%20Application%20Composer%20example%20IO.png "Monarco Hat IO Mapping in combination with Codesys Application Composer example v2.0.0.0")
+Monarco Hat V2.0.0.0 parameters view
+ ![Alt text](https://raw.githubusercontent.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/master/Monarco/2.0.0.0/pics/Monarco_HAT%20IO%20Mapping%202018-02-11_172304.png "Monarco Hat V2.0.0.0 parameters view")
