@@ -7,10 +7,11 @@
   * 2 Ai,
   * 2 Ao,
   * Hardware Watchdog.
+  
 
-![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco/2.0.0.0/pics/Monarco_HAT%20IO%20Mapping%202018-02-11_172304.png "Monarco IO Mapping v2.0.0.0")
+Monarco Hat IO Mapping in combination with Codesys Application Composer example 
+![Alt text](https://raw.githubusercontent.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/master/Monarco/2.0.0.0/pics/Monarco%20Hat%20with%20Codesys%20Application%20Composer%20example%20IO.png "Monarco Hat IO Mapping in combination with Codesys Application Composer example v2.0.0.0")
 
-![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco/2.0.0.0/pics/Monarco Hat with Codesys Application Composer example parameters.png "Monarco Hat parameters in combination with Codesys Application Composer example.")
 
-![Alt text](https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/Monarco/2.0.0.0
-/pics/ 	Monarco Hat with Codesys Application Composer example IO.png "Monarco Hat IO Mapping in combination with Codesys Application Composer example v2.0.0.0")
+Monarco Hat parameters in combination with Codesys Application Composer example
+![Alt text](https://raw.githubusercontent.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/master/Monarco/2.0.0.0/pics/Monarco%20Hat%20with%20Codesys%20Application%20Composer%20example%20parameters.png "Monarco Hat parameters in combination with Codesys Application Composer example.")
