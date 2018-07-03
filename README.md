@@ -8,14 +8,16 @@ CODESYS V3 Library for Monarco IO HAT
 The Monarco HAT is an industrial graded HAT ideally suited for Home Automation projects, IOT projects or (small) industrial projects. It was lacking a proper CODESYS V3 library, so I decided to develop it and fill in this gap.
 So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading, coding and debugging, this is the end-result. I thought that this library will be of use to other people, so I released it under the "Unlicense" agreement.
 
-Though I tested it thoroughly, it may still contain some small bugs (not too many I hope!). 
-If you spot one, share it with us so it can be fixed. Also, I invite you to fork this Repo and feel free to contribute!
+Though I tested it thoroughly, it probably will still contain bugs (not too many I hope!). 
+If you spot a bug, share it so it can be fixed!
 
-PS: I am not connected with Monarco.io or CODESYS in any way. I wrote this library out of hobbyism and for fun (self-education). 
+PS: I am not connected with Monarco.io or CODESYS in any way. 
+I wrote this library out of hobbyism and for fun (self-education). 
 
 # Information about current version: V2.0.0.0;
 - Works as an IO driverL:All interaction are done via IO and parameters, no function Block calls are needed.
 - Breaks compatibilty with earlier version v1.0.0.0 but improves on ease of use.
+- Stable enough, but work in progress & highly volatile ;-)
 
 # Information about previous versions
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
