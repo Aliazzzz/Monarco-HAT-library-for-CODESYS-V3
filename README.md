@@ -15,7 +15,7 @@ PS: I am not connected with Monarco.io or CODESYS in any way. I wrote this libra
 
 # Information about current version: V2.0.0.0;
 - Works as an IO driverL:All interaction are done via IO and parameters, no function Block calls are needed.
-- Breaks compatibilty with earlier version v1.0.0.0, however improves greatly on ease of use.
+- Breaks compatibilty with earlier version v1.0.0.0 but improves on ease of use.
 
 # Information about previous versions
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
