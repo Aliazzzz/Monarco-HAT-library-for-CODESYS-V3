@@ -14,13 +14,7 @@ If you spot a bug, share it so we can fix it.
 Not connected with Monarco.io or CODESYS in any way. Written out of hobbyism and fun.
 
 # Use Case
-The Monarco HAT is an industrial grade HAT ideally suited for
-    Home automation projects, 
-    mqtt telemetry protocol, 
-    IOT projects,
-    Industry 4.0,
-    Small industrial projects,
-    More ...
+The Monarco HAT is an industrial grade HAT ideally suited for Home automation projects in combination with mqtt telemetry protocol, IOT projects, Industry 4.0, small industrial projects an much more ...
 
 # V2.0.0.0 library info
 - Real device IO driver: write code, attach variable to I/O channel, ready! no function block calls in program needed.
