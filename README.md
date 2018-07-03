@@ -5,7 +5,7 @@
 
 CODESYS V3 Library for Monarco HAT
 
-A proper CODESYS V3 library was missing, so I developped it to fill in the gap.
+A proper CODESYS V3 library was missing, so I wrote it to fill in this gap.
 Written after studying C & Java Node-JS code examples and documentation provided by Monarco.
 Released under the "Unlicense" agreement.
 
