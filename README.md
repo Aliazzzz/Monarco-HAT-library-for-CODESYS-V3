@@ -14,24 +14,29 @@ If you spot a bug, share it so it can be fixed!
 PS: I am not connected with Monarco.io or CODESYS in any way. 
 I wrote this library out of hobbyism and for fun (self-education). 
 
-# Information about current version: V2.0.0.0;
-- Works as an IO driverL:All interaction are done via IO and parameters, no function Block calls are needed.
-- Breaks compatibilty with earlier version v1.0.0.0 but improves on ease of use.
-- Stable enough, but work in progress & highly volatile ;-)
+# V2.0.0.0 info
+- Works as an IO driver: Interaction via IO and parameters, no Bunction Block calls in program needed(!)
+- Breaks compatibilty with earlier version ut improves highly on ease of use
+- Stable, but work in progress
 
-# Information about previous versions
+# Previous versions info
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
 
-# The main components are;
+# The main components
 - .package file (CODESYS installer) which contains all below mentioned files in a user friendly installer, together with the "unlicense" agreement;
 - .devdesc.xml,
 - .Library,
 - Example.project file.
 
-
 # Prerequisitories
-- A Raspberry pi with the Monarco HAT,
-- CODESYS IDE with Raspberry Pi .package installed,
+Hardware
+- A Raspberry Pi
+- Monarco HAT
+
+Software
+- CODESYS V3 IDE,
+- CODESYS Raspberry Pi .package,
+- Monarco IO Hat library for CODESYS V2.0.0.0 package,
 
 # Hardware installation
 Attach Monarco HAT to Raspberry Pi and power it up; 
@@ -65,10 +70,12 @@ Follow Codesys online help steps, its easy!
 
 https://help.codesys.com/webapp/_rbp_install_runtime;product=CODESYS_Control_for_Raspberry_Pi_SL;version=3.5.12.0
 
-# Monarco codesys package installation
-Either install the Monarco codesys package (double clik it) or via CODESYS Package Manager, or
 
-Install the loose components via the Library / Device Repository, found under Tools menu option in CODESYS IDE.
+# Monarco codesys package installation
+Either install the Monarco codesys package via;
+    Double-click the package or 
+    via CODESYS IDE Package Manager or
+    Install the loose components via the Library / Device Repository, found under Tools menu option in CODESYS IDE.
 
 # Attach CODESYS to the RS485 UART
 Switch to etc direcory and edit the CODESYSControl.cfg;
@@ -94,4 +101,6 @@ Check/Set SPI master parameters:
     SPI bits 8,
     Speed(Hz) 1000000 (=1MHz) => can be set up to 4 MHz, slower speeds avoid chance on crc errors
 
-Compile, download, run => enjoy!
+
+
+Compile, download and run => enjoy!
