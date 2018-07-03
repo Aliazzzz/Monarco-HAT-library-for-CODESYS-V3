@@ -3,21 +3,29 @@
 ![Alt text](http://linuxgizmos.com/files/rex_monarcohat1.jpg "Monarco HAT")
 
 
-CODESYS V3 Library for Monarco IO HAT
+CODESYS V3 Library for Monarco HAT
 
-The Monarco HAT is an industrial graded HAT ideally suited for Home Automation projects, IOT projects or (small) industrial projects. It was lacking a proper CODESYS V3 library, so I decided to develop it and fill in this gap.
-So, using C & Java Node-JS code examples and documentation from Monarco and after lots of reading, coding and debugging, this is the end-result. I thought that this library will be of use to other people, so I released it under the "Unlicense" agreement.
+A proper CODESYS V3 library was missing, so I developped it to fill in the gap.
+Written after studying C & Java Node-JS code examples and documentation provided by Monarco.
+Released under the "Unlicense" agreement.
 
-Though I tested it thoroughly, it probably will still contain bugs (not too many I hope!). 
-If you spot a bug, share it so it can be fixed!
+Though tested thoroughly, it will probably still contain bugs (but not too many I hope!) 
+If you spot a bug, share it so we can fix it.
+Not connected with Monarco.io or CODESYS in any way. Written out of hobbyism and fun.
 
-PS: I am not connected with Monarco.io or CODESYS in any way. 
-I wrote this library out of hobbyism and for fun (self-education). 
+# Use Case
+The Monarco HAT is an industrial grade HAT ideally suited for
+    Home automation projects, 
+    mqtt telemetry protocol, 
+    IOT projects,
+    Industry 4.0,
+    Small industrial projects,
+    More ...
 
-# V2.0.0.0 info
-- Works as an IO driver: Interaction via IO and parameters, no Bunction Block calls in program needed(!)
-- Breaks compatibilty with earlier version ut improves highly on ease of use
-- Stable, but work in progress
+# V2.0.0.0 library info
+- Real device IO driver: write code, attach variable to I/O channel, ready! no function block calls in program needed.
+- Breaks compatibilty with earlier version but improves highly on ease of use,
+- Stable, but work in progress.
 
 # Previous versions info
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
@@ -102,5 +110,4 @@ Check/Set SPI master parameters:
     Speed(Hz) 1000000 (=1MHz) => can be set up to 4 MHz, slower speeds avoid chance on crc errors
 
 
-
-Compile, download and run => enjoy!
+# Compile, download and run => enjoy!
