@@ -36,7 +36,7 @@ Hardware
 - Monarco HAT
 
 Software
-- CODESYS V3 IDE https://store.codesys.com/codesys.html,
+- ![Alt text] (https://store.codesys.com/codesys.html "CODESYS V3 IDE")
 - CODESYS Raspberry Pi .package https://store.codesys.com/codesys-control-for-raspberry-pi-sl.html,
 - Monarco IO Hat library for CODESYS V2.0.0.0 package,
 
