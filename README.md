@@ -5,37 +5,35 @@
 
 CODESYS V3 Library for Monarco HAT
 
-A proper CODESYS V3 library was missing, so I wrote it to fill in this gap.
+A proper CODESYS V3 library was missing, so I wrote it to fill the gap.
 Written after studying C & Java Node-JS code examples and documentation provided by Monarco.
-Released under the "Unlicense" agreement.
-
-Though tested thoroughly, it will probably still contain bugs (but not too many I hope!) 
-If you spot a bug, share it so we can fix it.
-Not connected with Monarco.io or CODESYS in any way. Written out of hobbyism and fun.
+Released under the "Unlicense" agreement, not connected with Monarco.io or CODESYS in any way. 
+Though tested thoroughly, it will probably still contain bugs =( If you spot a bug, share it so we can fix it.
+Written out of hobbyism and fun.
 
 # Use Case
-The Monarco HAT is an industrial grade HAT ideally suited for Home automation projects in combination with mqtt telemetry protocol, IOT projects, Industry 4.0, small industrial projects an much more ...
+The Monarco HAT is a real robust industrial graded HAT perfectly suited for home automation projects, i.e. in combination with mqtt telemetry protocol, IOT projects, Industry 4.0, small industrial projects and much more ...
 
 # V2.0.0.0 library info
 - Real device IO driver: write code, attach variable to I/O channel, ready! no function block calls in program needed.
 - Breaks compatibilty with earlier version but improves highly on ease of use,
-- Stable, but work in progress.
+- Stable, but work in progress ...
 
 # Previous versions info
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
 
-# The main components
-- .package file (CODESYS installer) which contains all below mentioned files in a user friendly installer, together with the "unlicense" agreement;
-- .devdesc.xml,
-- .Library,
-- Example.project file.
+# The main software components
+- .package file (CODESYS package installer) which installs the necessary files in a user friendly manner;
+   - Hardware device description file,
+   - Software library file,
+   - Example project file, 
+   - A copy of the "unlicense" agreement...
 
-# Prerequisitories
-Hardware
-- A Raspberry Pi
-- Monarco HAT
+# Hardware prerequisitories
+- A Raspberry Pi,
+- A Monarco HAT ...
 
-# Software
+# Software prerequisitories
 - CODESYS V3 IDE available at https://store.codesys.com/codesys.html,
 - CODESYS Raspberry Pi .package available at https://store.codesys.com/codesys-control-for-raspberry-pi-sl.html,
 - Monarco IO Hat library for CODESYS V2.0.0.0 package found at https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/tree/master/Monarco/2.0.0.0
