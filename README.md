@@ -15,7 +15,8 @@ Written out of hobbyism and fun.
 The Monarco HAT is a real robust industrial graded HAT perfectly suited for home automation projects, i.e. in combination with mqtt telemetry protocol, IOT projects, Industry 4.0, small industrial projects and much more ...
 
 # V2.0.0.0 library info
-- Real device IO driver: write code, attach variable to I/O channel, ready! no function block calls in program needed.
+- Real device IO driver,
+   - No function block calls necessary, write code, attach variable to I/O channel, ready! 
 - Breaks compatibilty with earlier version but improves highly on ease of use,
 - Stable, but work in progress ...
 
