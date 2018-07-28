@@ -1,9 +1,7 @@
-# Monarco-HAT-library-for-CODESYS-V3
+# CODESYS V3 Library for Monarco HAT
 ![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
 ![Alt text](http://linuxgizmos.com/files/rex_monarcohat1.jpg "Monarco HAT")
 
-
-CODESYS V3 Library for Monarco HAT
 
 A proper CODESYS V3 library was missing, so I wrote it to fill the gap.
 Written after studying C & Java Node-JS code examples and documentation provided by Monarco.
