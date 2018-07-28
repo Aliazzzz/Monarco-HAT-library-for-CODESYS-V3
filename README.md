@@ -15,7 +15,7 @@ The Monarco HAT is a real robust industrial graded HAT perfectly suited for home
 # V2.0.0.0 library info
 - Implemented as CODESYS 3 IO device-driver;
    - 100% Open source,
-   - 100% Pure IEC code (ST),
+   - 100% Pure IEC code (ST).
 - No function block calls in your software necessary, just write code, attach variable to an I/O channel, ready! 
 - Breaks compatibilty with earlier FB version but improves highly on ease of use,
 - Stable, but work in progress ...
