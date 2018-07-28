@@ -1,5 +1,5 @@
 # Monarco-HAT-library-for-CODESYS-V3
-![Alt text](https://www.codesys.com/typo3conf/ext/template87/Resources/Public/Images/CODESYS_logo_ds.svg "CODESYS")
+![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
 ![Alt text](https://www.monarco.io/wp-content/uploads/2017/01/monarco.png "Monarco HAT")
 
 
