@@ -1,6 +1,6 @@
 # Monarco-HAT-library-for-CODESYS-V3
-![Alt text](https://tienda.opiron.com/107-home_default/curso-de-codesys.jpg "CODESYS")
-![Alt text](http://linuxgizmos.com/files/rex_monarcohat1.jpg "Monarco HAT")
+![Alt text](https://www.codesys.com/typo3conf/ext/template87/Resources/Public/Images/CODESYS_logo_ds.svg "CODESYS")
+![Alt text](https://www.monarco.io/wp-content/uploads/2017/01/monarco.png "Monarco HAT")
 
 
 CODESYS V3 Library for Monarco HAT
