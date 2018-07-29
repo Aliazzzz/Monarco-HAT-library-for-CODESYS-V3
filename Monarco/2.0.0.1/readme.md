@@ -5,4 +5,4 @@
   * 2 Ai,
   * 2 Ao,
   * Hardware Watchdog,
-  * Control Byte. 
+  * Control Byte (experimental).
