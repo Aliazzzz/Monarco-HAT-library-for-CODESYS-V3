@@ -12,12 +12,18 @@ Written out of hobbyism and fun.
 # Use Case
 The Monarco HAT is a real robust industrial graded HAT perfectly suited for home automation projects, i.e. in combination with mqtt telemetry protocol, IOT projects, Industry 4.0, small industrial projects and much more ...
 
-# V2.0.0.0 library info
+# V2.0.0.1 library info
 - Implemented as CODESYS 3 IO device-driver;
    - 100% Open source,
    - 100% Pure IEC code (ST).
 - No function block calls in your software necessary, just write code, attach variable to an I/O channel, ready! 
 - Breaks compatibilty with earlier FB version but improves highly on ease of use,
+   - 4 Di,
+   - 4 Do,
+   - 2 Ai,
+   - 2 Ao,
+   - Hardware Watchdog,
+   - Control Byte.
 - Stable, but work in progress ...
 
 # Previous versions info
@@ -37,7 +43,7 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 # Software prerequisitories
 - CODESYS V3 IDE available at https://store.codesys.com/codesys.html,
 - CODESYS Raspberry Pi .package available at https://store.codesys.com/codesys-control-for-raspberry-pi-sl.html,
-- Monarco IO Hat library for CODESYS V2.0.0.0 package found at https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/tree/master/Monarco/2.0.0.0
+- Latest Monarco IO Hat library for CODESYS package
 
 # Hardware installation
 Attach Monarco HAT to Raspberry Pi and power it up; 
