@@ -10,6 +10,6 @@
   
   
   
-# Monarco Hat V2.0.0.0 parameters view;
+# Monarco Hat V2.0.0.0 I/O mapping view;
 
  ![Alt text](https://raw.githubusercontent.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/master/Monarco/2.0.0.0/pics/Monarco_HAT%20IO%20Mapping%202018-02-11_172304.png "Monarco Hat V2.0.0.0 parameters view")
