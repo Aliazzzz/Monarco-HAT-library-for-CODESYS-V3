@@ -23,7 +23,7 @@ The Monarco HAT is a real robust industrial graded HAT perfectly suited for home
    - 2 Ai,
    - 2 Ao,
    - Hardware Watchdog,
-   - Control Byte.
+   - Control Byte (experimental).
 - Stable, but work in progress ...
 
 # Previous versions info
