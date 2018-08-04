@@ -17,7 +17,7 @@ The Monarco HAT is a real robust industrial graded HAT perfectly suited for home
    - 100% Open source,
    - 100% Pure IEC code (ST).
 - No function block calls in your software necessary, just write code, attach variable to an I/O channel, ready! 
-- Breaks compatibilty with earlier FB version but improves highly on ease of use,
+- Breaks compatibility with earlier FB version but improves highly on ease of use,
    - 4 Di,
    - 4 Do,
    - 2 Ai,
