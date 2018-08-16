@@ -60,7 +60,7 @@ should return "Monarco HAT"
 
     sudo sed 's/ console=serial0,[0-9]\+//' -i /boot/cmdline.txt
     sudo reboot
-
+    
 # Install essential tools
     
     sudo apt update
@@ -95,6 +95,26 @@ Add the following lines;
     [SysCom] Linux.Devicefile=/dev/ttyAMA
 
 Now save and Quit nano. 
+
+# Enable NTP sync
+Now manually configure and enable NTP service;
+
+    sudo nano etc/ntp.config
+    
+    Add server pool.ntp.org (other server entries can be commented out)
+    Uncomment line restrict 192.168.1.0 mask 255.255.255.0 nomodify notrap (you may need to change IP to your network base)
+    
+Now save and Quit nano again. Now you can enable NTP service;
+
+      sudo systemctl enable ntpd.service
+
+And then start it;
+
+      sudo systemctl start ntpd.service
+
+And check configuration;
+
+      sudo ntpq -p
 
 Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application. 
 Access the RS485 UART via a comlib of you own flavour (like CAA SerialCOM library)
