@@ -51,18 +51,18 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 # Software prerequisitories
 - CODESYS V3 IDE available at https://store.codesys.com/codesys.html,
 - CODESYS Raspberry Pi .package available at https://store.codesys.com/codesys-control-for-raspberry-pi-sl.html,
-- Latest Monarco IO Hat library for CODESYS package
+- Latest Monarco IO Hat library for CODESYS package avilable at https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/tree/master/Monarco/2.0.0.1/package
 
 # Hardware installation
 Attach Monarco HAT to Raspberry Pi and power it up; 
 
     sudo cat /proc/device-tree/hat/vendor
     
-should return "REX Controls" 
+should return "REX Controls". 
 
     sudo cat /proc/device-tree/hat/product
 
-should return "Monarco HAT"
+should return "Monarco HAT".
 
 # Disable system console on UART
 
