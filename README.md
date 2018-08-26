@@ -2,20 +2,18 @@
 ![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
 ![Alt text](http://linuxgizmos.com/files/rex_monarcohat1.jpg "Monarco HAT")
 
+The Monarco HAT is a robust industrial graded HAT, perfectly suited for home automation projects. 
+Tt wil protect your Raspebrry Pi from being fried by overvoltage or short circuiting and provide enough IO points to do some small projects with it. For example some IOT project, small home-automation or industrial projects in combination with MQTT telemetry protocol and much more ... 
 
-A proper CODESYS V3 library was missing, so I wrote it to fill the gap.
-Written after studying C & Java Node-JS code examples and documentation provided by Monarco.
-Released under the "Unlicense" agreement, not connected with Monarco.io or CODESYS in any way. 
-Though tested thoroughly, it will probably still contain bugs =( If you spot a bug, share it so we can fix it.
-Written out of hobbyism and fun.
+A CODESYS V3 library was missing, so I wrote it to fill the gap after studying the C & Java Node-JS code examples and documentation provided by Monarco. Though tested thoroughly, it will probably still contain bugs =( 
+If you spot a bug, share it so we can fix it.
 
-# Use Case
-The Monarco HAT is a real robust industrial graded HAT perfectly suited for home automation projects, i.e. in combination with mqtt telemetry protocol, IOT projects, Industry 4.0, small industrial projects and much more ...
+As the CODESYS runtime for Raspbery Pi also contains a very good responsive HTML5 compatible webinterface (via a built in webserver in CODESYS itself), no extra software like OpenHAB or Domoticz is neccesary. But offcourse you can connect to these platforms if needed. For the record, I am not connected with Monarco or CODESYS in any way.
 
 # V2.0.0.1 library info
 - Implemented as CODESYS 3 IO device-driver;
    - 100% Open source,
-   - 100% Pure IEC code (ST).
+   - 100% Pure IEC 61131-3 code (ST),
 - No function block calls in your software necessary, just write code, attach variable to an I/O channel, ready! 
 - Breaks compatibility with earlier FB version but improves highly on ease of use,
    - 4 Di,
@@ -25,6 +23,13 @@ The Monarco HAT is a real robust industrial graded HAT perfectly suited for home
    - Hardware Watchdog,
    - Control Byte (experimental).
 - Stable, but work in progress ...
+
+# Missing in action
+At this moment, some things are still missing, however all functionality are allready implemented (supported) in the core driver, but not yet routed as parameters;
+- Not yet routed to parameters are;
+   - RS485 configuration, 
+   - DO channels PWM configuration,
+   - DI channels Counter configuration.
 
 # Previous versions info
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
@@ -127,6 +132,5 @@ Check/Set SPI master parameters:
     Mode 0,
     SPI bits 8,
     Speed(Hz) 1000000 (=1MHz) => can be set up to 4 MHz, slower speeds avoid chance on crc errors
-
 
 # Compile, download and run => enjoy!
