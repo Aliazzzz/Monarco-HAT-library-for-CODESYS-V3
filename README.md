@@ -1,6 +1,6 @@
 # CODESYS V3 Library for Monarco HAT
 ![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
-![Alt text](http://linuxgizmos.com/files/rex_monarcohat1.jpg "Monarco HAT")
+![Alt text](https://www.monarco.io/wp-content/uploads/2017/01/monarco_dinrail.jpg "Monarco HAT")
 
 The Monarco HAT is a robust industrial graded HAT, perfectly suited for home automation projects. 
 Tt wil protect your Raspebrry Pi from being fried by overvoltage or short circuiting and provide enough IO points to do some small projects with it. For example some IOT project, small home-automation or industrial projects in combination with MQTT telemetry protocol and much more ... 
