@@ -1,7 +1,7 @@
 # CODESYS V3 Library for Monarco HAT
 
 ![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
-![Alt text](https://www.monarco.io/wp-content/uploads/2017/01/monarco_dinrail.jpg "Monarco HAT")
+![Alt text](https://www.robotshop.com/media/files/images2/monarco-board-aluminum-housing-desc_image-1.jpg "Monarco HAT")
 
 The Monarco HAT is a robust industrial graded HAT, perfectly suited for IOT projects, small home-automation or industrial projects and much more ... It protects your Raspberry Pi from overvoltage or short-circuiting and provides enough IO channels and channel versatility. 
 
@@ -46,11 +46,13 @@ https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSI
 
 # Hardware prerequisitories
 - A Raspberry Pi,
-- A Monarco HAT ...
+- A Monarco HAT,
+- 8 GB SD Card ...
 
 # Software prerequisitories
 - CODESYS V3 IDE available at https://store.codesys.com/codesys.html,
 - CODESYS Raspberry Pi .package available at https://store.codesys.com/codesys-control-for-raspberry-pi-sl.html,
+- Codesys Raspberry Pi SL Demo or License (The Demo is *unrestricted in technical capabilities* but will only run for two hours straight, after which it stops and you have to set it in run again yourself by logging in)
 - Latest Monarco IO Hat library for CODESYS package avilable at https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/tree/master/Monarco/2.0.0.1/package
 
 # Hardware installation
@@ -125,10 +127,10 @@ And check configuration;
       sudo ntpq -p
 
 Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application. 
-Access the RS485 UART via a comlib of you own flavour (like CAA SerialCOM library)
+Access the RS485 UART via a comlib of you own flavour in CODESYS (like CAA SerialCOM library).
 
 # Run CODESYS Project
-Open the provided example project file,
+Open the provided example project file.
 
 Check/Set SPI master parameters:
 
