@@ -4,9 +4,9 @@
 ![Alt text](https://www.monarco.io/wp-content/uploads/2017/01/monarco_dinrail.jpg "Monarco HAT")
 
 The Monarco HAT is a robust industrial graded HAT, perfectly suited for home automation projects. 
-Tt wil protect your Raspebrry Pi from being fried by overvoltage or short circuiting and provide enough IO points to do some small projects with it. For example some IOT project, small home-automation or industrial projects in combination with MQTT telemetry protocol and much more ... 
+It protects your Raspebrry Pi from being fried by overvoltage or short circuiting and provides enough IO points to do projects with it. For example IOT projects, small home-automation or industrial projects and much more ... I personally used it in combination with the MQTT telemetry protocol.
 
-A CODESYS V3 library was missing, so I wrote it to fill the gap after studying the C & Java Node-JS code examples and documentation provided by Monarco. Though tested thoroughly, it will probably still contain bugs =( 
+A CODESYS V3 library was missing, so I wrote one to fill the gap after studying the C & Java Node-JS code examples and documentation provided by Monarco. Though tested, it will probably still contain bugs =( 
 If you spot a bug, share it so we can fix it.
 
 As the CODESYS runtime for Raspbery Pi also contains a very good responsive HTML5 compatible webinterface (via a built in webserver in CODESYS itself), no extra software like OpenHAB or Domoticz is neccesary. But offcourse you can connect to these platforms if needed. For the record, I am not connected with Monarco or CODESYS in any way.
