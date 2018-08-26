@@ -3,8 +3,7 @@
 ![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
 ![Alt text](https://www.monarco.io/wp-content/uploads/2017/01/monarco_dinrail.jpg "Monarco HAT")
 
-The Monarco HAT is a robust industrial graded HAT, perfectly suited for home and professional automation projects. 
-It protects your Raspebrry Pi from being fried by overvoltage or short circuiting and provides enough IO points to do projects with it. For example IOT projects, small home-automation or industrial projects and much more ... 
+The Monarco HAT is a robust industrial graded HAT, perfectly suited for IOT projects, small home-automation or industrial projects and much more ... It protects your Raspebrry Pi from being fried by overvoltage or short circuiting and provides enough IO channels and channel versatility (PWM, counters etc).
 
 A CODESYS V3 library was missing, so I wrote one to fill the gap after studying the C & Java Node-JS code examples and documentation provided by Monarco. Though tested, it will probably still contain bugs =( 
 If you spot a bug, share it so we can fix it.
