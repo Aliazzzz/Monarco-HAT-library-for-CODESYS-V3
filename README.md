@@ -28,7 +28,8 @@ For the record, I am not connected with Monarco or CODESYS in any way.
 - Stable, but work in progress ...
 
 # Missing in action
-At this moment, some things are still missing, however all functionality are allready implemented (supported) in the core driver, but not yet routed as parameters;
+At this moment, some things are still missing, however all functionality is allready implemented in the core of the driver, 
+but not yet routed to the user as parameters;
 - Not yet routed to parameters are;
    - RS485 configuration, 
    - DO channels PWM configuration,
