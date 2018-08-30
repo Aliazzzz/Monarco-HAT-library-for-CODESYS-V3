@@ -3,12 +3,12 @@
 ![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
 ![Alt text](https://www.robotshop.com/media/files/images2/monarco-board-aluminum-housing-desc_image-1.jpg "Monarco HAT")
 
-The Monarco HAT is a robust industrial graded HAT, perfectly suited for IOT projects, small home-automation or industrial projects and much more ... It protects your Raspberry Pi from overvoltage or short-circuiting and provides enough IO channels and channel versatility. 
+The Monarco HAT is a robust industrial graded HAT, perfectly suited for IOT projects, small home-automation or industrial projects and much more ... It protects your Raspberry Pi from overvoltage or short-circuiting and simultaneously provides you with enough IO channels and channel configuration versatility. 
 
 A CODESYS V3 library was missing, so I wrote one to fill the gap after studying the C & Java Node-JS code examples and documentation provided by Monarco. Though tested, it will probably still contain bugs =( 
 If you spot a bug, share it so we can fix it.
 
-As the CODESYS runtime for Raspbery Pi also contains a very good responsive HTML5 compatible webinterface (via a built in webserver in CODESYS itself), no extra software like OpenHAB or Domoticz is neccesary. Offcourse you can connect to these platforms if needed. 
+As the CODESYS runtime for Raspbery Pi also contains a very good responsive HTML5 compatible webinterface (via a built-in webserver in the CODESYS runtime itself), no extra software like OpenHAB or Domoticz is neccesary. Offcourse, you can connect to any external platform if needed. 
 
 For the record, I am not connected with Monarco or CODESYS in any way.
 
