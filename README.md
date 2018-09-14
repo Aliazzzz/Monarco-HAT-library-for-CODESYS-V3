@@ -12,7 +12,7 @@ As the CODESYS runtime for Raspbery Pi also contains a very good responsive HTML
 
 For the record, I am not connected with Monarco or CODESYS in any way.
 
-# Tools/knowledge involved;
+# Tools/knowledge involved
 - Lots of time!
 - 2 * Codesys IDE simultaniously opened : 1 for Project, 1 for the Library,
 - Notepad++ for editing the .devdesc.xml,
