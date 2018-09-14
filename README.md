@@ -12,6 +12,16 @@ As the CODESYS runtime for Raspbery Pi also contains a very good responsive HTML
 
 For the record, I am not connected with Monarco or CODESYS in any way.
 
+# Tools/knowledge involved;
+- Lots of time!
+- 2 * Codesys IDE simultaniously opened : 1 for Project, 1 for the Library,
+- Notepad++ for editing the .devdesc.xml,
+- Documentation to read up on architecture knowledge of how to setup an IO driver,
+- Example code to study to understand the mechanism involved which couples the defined parameters from the xml to the codesys IO driver,
+- Package manager to deploy the end result in a professional manner.
+
+Offcourse you can download my package and study it as it is open source ;-)
+
 
 # V2.0.0.1 library info
 - Implemented as CODESYS 3 IO device-driver;
