@@ -27,11 +27,12 @@ For the record, I am not connected with Monarco or CODESYS in any way.
 - Stable, but work in progress ...
 
 # Missing in action
-At this moment all functionality is implemented into the core of the driver, but not yet routed to the user as parameters;
+At this moment all functionality is implemented into the core of the driver (as FB), but not yet routed to the user as parameters;
 - Not yet routed to parameters are;
    - RS485 configuration, 
    - DO channels PWM configuration,
-   - DI channels Counter configuration.
+   - DI channels Counter configuration,
+   - 1-Wire bus.
 
 # Previous versions info
 https://github.com/Aliazzzz/Monarco-HAT-library-for-CODESYS-V3/blob/master/VERSIONS.md
