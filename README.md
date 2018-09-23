@@ -110,20 +110,32 @@ Now save and Quit nano.
 # Do a forced NTP sync
     sudo timedatectl
 
-This will force to sync time with some time server
+This will force to sync time with some time server and returns something like, depending on date/time and your time-zone;
 
-# Ready, but wait ...
+         Local time: zo 2018-09-23 14:46:17 CEST
+         Universal time: zo 2018-09-23 12:46:17 UTC
+         RTC time: zo 2018-09-23 12:46:18
+         Time zone: Europe/Amsterdam (CEST, +0200)
+         Network time on: yes
+         NTP synchronized: yes
+         RTC in local TZ: no
 
-Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application. 
+
+# Ready! But wait?
+
+Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application!
 Access the RS485 UART via a comlib of you own flavour in CODESYS (like CAA SerialCOM library).
 
+
 # Run CODESYS Project
-Open the provided example project file.
+Open Codesys and the provided example project file.
 
 Check/Set SPI master parameters:
 
     Mode 0,
     SPI bits 8,
     Speed(Hz) 1000000 (=1MHz) => can be set up to 4 MHz, slower speeds avoid chance on crc errors
+    
+Select your Target, Compile, download and run
 
-# Compile, download and run => enjoy!
+# Enjoy!
