@@ -77,8 +77,8 @@ should return "Monarco HAT".
     sudo apt install git
 
 # Flash Monarco HAT EEPROM (to avoid manual installation of overlay)
-sudo git clone https://github.com/monarco/monarco-hat-firmware-bin
 
+    sudo git clone https://github.com/monarco/monarco-hat-firmware-bin
     cd monarco-hat-firmware-bin
     ./monarco-eeprom.sh update
 
@@ -102,29 +102,17 @@ Switch to etc direcory and edit the CODESYSControl.cfg;
 
 Add the following lines;
     
-    [SysCom] Linux.Devicefile=/dev/ttyAMA
+    [SysCom] 
+    Linux.Devicefile=/dev/ttyAMA
 
 Now save and Quit nano. 
 
-# Enable NTP sync
-Now manually configure and enable NTP service;
+# Do a forced NTP sync
+    sudo timedatectl
 
-    sudo nano etc/ntp.config
-    
-    Add server pool.ntp.org (other server entries can be commented out)
-    Uncomment line restrict 192.168.1.0 mask 255.255.255.0 nomodify notrap (you may need to change IP to your network base)
-    
-Now save and Quit nano again. Now you can enable NTP service;
+This will force to sync time with some time server
 
-      sudo systemctl enable ntpd.service
-
-And then start it;
-
-      sudo systemctl start ntpd.service
-
-And check configuration;
-
-      sudo ntpq -p
+# Ready, but wait ...
 
 Now you can use the HAT, RS-485 and the Real-Time Clock from within a CODESYS IEC application. 
 Access the RS485 UART via a comlib of you own flavour in CODESYS (like CAA SerialCOM library).
