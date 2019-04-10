@@ -3,6 +3,10 @@
 ![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
 ![Alt text](https://www.robotshop.com/media/files/images2/monarco-board-aluminum-housing-desc_image-1.jpg "Monarco HAT")
 
+This Git has moved
+https://forge.codesys.com/drv/spi-monarco/home/Project%20Overview/ Where has found a new home! ;-)
+You can still download this older version from this Git.
+
 The Monarco HAT is a robust industrial graded HAT, perfectly suited for IOT projects, small home-automation or industrial projects and much more ... It protects your Raspberry Pi from overvoltage or short-circuiting and simultaneously provides you with enough IO channels and channel configuration versatility. 
 
 A CODESYS V3 library was missing, so I wrote one to fill the gap after studying the C & Java Node-JS code examples and documentation provided by Monarco. Though tested, it will probably still contain bugs =( 
