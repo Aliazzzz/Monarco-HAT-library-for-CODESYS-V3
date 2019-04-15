@@ -3,12 +3,12 @@
 ![Alt text](http://pigeoncomputers.com/wp-content/uploads/2017/08/Codesys_Logo_250px.png "CODESYS")
 ![Alt text](https://www.robotshop.com/media/files/images2/monarco-board-aluminum-housing-desc_image-1.jpg "Monarco HAT")
 
-# This Git has moved
-https://forge.codesys.com/drv/spi-monarco/home/Project%20Overview/ 
-Where has found a new home. Ther you will find an updated driver and the new 64 Bytes RETAIN data support. 
-You can still download this older version from this Git.
+# This Git will move
+See https://forge.codesys.com/drv/spi-monarco/home/Project%20Overview/ 
+where it has found a new home. There you will also find the new 64 Bytes RETAIN data support.
 
-The Monarco HAT is a robust industrial graded HAT, perfectly suited for IoT projects, hobby/home automation or industrial projects and much more. It protects your Raspberry Pi from overvoltage or short-circuiting and simultaneously provides you with enough IO channels and channel configuration versatility. 
+# About the HAT
+The Monarco HAT is a robust industrial graded HAT, perfectly suited for IoT projects, hobby/home automation or industrial projects and much more. It protects your Raspberry Pi from overvoltage, short-circuiting and simultaneously provides you with enough IO channels and channel configuration versatility. 
 
 As the CODESYS runtime for Raspbery Pi also contains a very good responsive HTML5 compatible webinterface (via a built-in webserver in the CODESYS runtime itself), no extra software like OpenHAB or Domoticz is neccesary. 
 Offcourse, you can connect to any external platform if needed. 
